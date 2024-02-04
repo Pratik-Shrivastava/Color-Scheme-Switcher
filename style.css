@@ -1,0 +1,114 @@
+*{
+    margin: 10px;
+    padding: 0px;
+}
+body{
+    background: #bbb8b8;
+}
+.heading{
+    /* border: 2px solid red; */
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+.container{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+}
+.box{
+    border: 2px solid black;
+    border-radius: 5px;
+    
+               
+}
+.instruction{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#box-1{
+    background: yellow;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+#box-2{
+    background: green;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+#box-3{
+    background: red;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+#box-4{
+    background: blue;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+#box-1:hover{
+    transform: scale(1.2);
+}
+#box-1:active{
+    background: rgb(204, 204, 0);
+}
+#box-2:hover{
+    transform: scale(1.2);
+}
+#box-2:active{
+    background:  rgb(0, 91, 0);
+}
+#box-3:hover{
+    transform: scale(1.2);
+}
+#box-3:active{
+    background: rgb(163, 0, 0);
+}
+#box-4:hover{
+    transform: scale(1.2);
+}
+#box-4:active{
+    background: rgb(0, 0, 181);
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#reset{
+    border: 2px solid black;
+    align-self: center;
+    padding: 5px 5px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: white;
+    transition-duration: 0.2s;
+}
+#reset:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#reset:active{
+    background: rgb(200, 200, 200);
+}
